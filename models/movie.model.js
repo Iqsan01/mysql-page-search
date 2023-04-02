@@ -25,6 +25,6 @@ const Movie = db.define('movies', {
 
 export default Movie;
 
-(async () => {
-    db.sync();
-})()
+// (async () => {
+//     db.sync({alter: true});
+// })()
